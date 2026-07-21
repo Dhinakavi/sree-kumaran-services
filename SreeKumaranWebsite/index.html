@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sree Kumaran - Electrical & Plumbing Services in Chennai</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Top Info Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="address-info">
+                <i class="fa-solid fa-location-dot"></i> 
+                6, Shantha Home, Kathir Apartment, AB Block G2, 6th Cross Street, Lenin Nagar, Ambattur, Chennai.
+            </div>
+            <div class="phone-info">
+                <i class="fa-solid fa-phone"></i> 9940764694
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo-box">
+                <img src="images/logo.png" alt="Sree Kumaran Electrical & Plumbing Services Logo" class="logo-img">
+            </a>
+
+            <nav class="navbar" id="navbar">
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="#services" class="nav-link">Services <i class="fa-solid fa-chevron-down"></i></a>
+                    </li>
+                    <li><a href="#why-us" class="nav-link">Why Us</a></li>
+                    <li><a href="#service-areas" class="nav-link">Service Areas</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact Us</a></li>
+                </ul>
+            </nav>
+
+         <!--  <a href="tel:9940764694" class="btn btn-book">
+                <i class="fa-solid fa-calendar-check"></i> Book a Service
+            </a> -->
+            <button class="btn btn-book" onclick="openBookingModal()">
+                <i class="fa-solid fa-calendar-check"></i> Book a Service
+            </button>
+
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero / Banner Section -->
+    <section class="hero-section" id="home">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h2 class="hero-sub">PROFESSIONAL</h2>
+                <h1 class="hero-title">ELECTRICAL & PLUMBING<br><span class="highlight">SERVICES IN CHENNAI</span></h1>
+                <p class="hero-desc">Fast, Reliable & Affordable Home Maintenance Solutions</p>
+
+                <div class="hero-highlights">
+                    <div class="h-item"><i class="fa-solid fa-bolt"></i> All Electrical Works</div>
+                    <div class="h-item"><i class="fa-solid fa-faucet-drip"></i> All Plumbing Works</div>
+                    <div class="h-item"><i class="fa-solid fa-house-chimney"></i> Home Services</div>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="tel:9940764694" class="btn btn-call">
+                        <i class="fa-solid fa-phone"></i> CALL NOW<br><span>9940764694</span>
+                    </a>
+                    <a href="https://wa.me/919940764694" class="btn btn-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> WHATSAPP NOW<br><span>9940764694</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Ribbon Banner -->
+            <div class="hero-badge">
+                <div class="badge-ribbon">
+                    <h3>24x7</h3>
+                    <h2>SERVICE</h2>
+                    <p class="badge-sub">Electrical Work & Plumbing Needs</p>
+                    <span class="badge-foot">Professional & Reliable Service</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <!-- Our Services Section -->
+<section class="services-section" id="services">
+    <div class="container">
+        <h2 class="section-title">OUR SERVICES</h2>
+        <div class="title-underline"></div>
+
+        <div class="services-grid">
+            <!-- Electrical Services -->
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="images/electrical.jpg" alt="Electrical Services">
+                </div>
+                <div class="service-details">
+                    <h3>ELECTRICAL SERVICES</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Fan Installation & Repair</li>
+                        <li><i class="fa-solid fa-check"></i> Light Installation</li>
+                        <li><i class="fa-solid fa-check"></i> Switch & Socket Repair</li>
+                        <li><i class="fa-solid fa-check"></i> Wiring & Rewiring</li>
+                        <li><i class="fa-solid fa-check"></i> MCB Replacement</li>
+                        <li><i class="fa-solid fa-check"></i> Inverter Installation</li>
+                        <li><i class="fa-solid fa-check"></i> All Electrical Works</li>
+                    </ul>
+                    <button class="btn btn-more" onclick="openModal('electrical')">View More</button>
+                </div>
+            </div>
+
+            <!-- Plumbing Services -->
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="images/plumbing.jpg" alt="Plumbing Services">
+                </div>
+                <div class="service-details">
+                    <h3>PLUMBING SERVICES</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Tap Repair & Replacement</li>
+                        <li><i class="fa-solid fa-check"></i> Pipe Leakage Fixing</li>
+                        <li><i class="fa-solid fa-check"></i> Bathroom Fittings</li>
+                        <li><i class="fa-solid fa-check"></i> Drain Block Removal</li>
+                        <li><i class="fa-solid fa-check"></i> Water Tank Cleaning</li>
+                        <li><i class="fa-solid fa-check"></i> Motor Pump Repair</li>
+                        <li><i class="fa-solid fa-check"></i> All Plumbing Works</li>
+                    </ul>
+                    <button class="btn btn-more" onclick="openModal('plumbing')">View More</button>
+                </div>
+            </div>
+
+            <!-- Cleaning Services -->
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="images/cleaning.jpg" alt="Cleaning Services">
+                </div>
+                <div class="service-details">
+                    <h3>CLEANING SERVICES</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Deep Home Cleaning</li>
+                        <li><i class="fa-solid fa-check"></i> Bathroom Cleaning</li>
+                        <li><i class="fa-solid fa-check"></i> Kitchen Cleaning</li>
+                        <li><i class="fa-solid fa-check"></i> Sofa & Carpet Cleaning</li>
+                        <li><i class="fa-solid fa-check"></i> Floor Cleaning</li>
+                        <li><i class="fa-solid fa-check"></i> Apartment Cleaning</li>
+                    </ul>
+                    <button class="btn btn-more" onclick="openModal('cleaning')">View More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Service Details Modal Popup -->
+<div id="serviceModal" class="modal-overlay">
+    <div class="modal-content">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <div id="modalBody">
+            <!-- Dynamic Content Injected Here via JavaScript -->
+        </div>
+    </div>
+</div>
+
+    <!-- Why Choose Us Banner Section -->
+    <section class="why-us-section" id="why-us">
+        <div class="container">
+            <h2 class="section-title text-white">WHY CHOOSE US</h2>
+            <div class="title-underline underline-yellow"></div>
+
+            <div class="why-us-grid">
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-user-gear"></i></div>
+                    <h4>EXPERIENCED TECHNICIANS</h4>
+                    <p>Skilled and trained professionals</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-tag"></i></div>
+                    <h4>TRANSPARENT PRICING</h4>
+                    <p>No hidden charges, affordable rates</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-clock"></i></div>
+                    <h4>ON-TIME SERVICE</h4>
+                    <p>We value your time and ensure on-time service</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h4>QUALITY WORKMANSHIP</h4>
+                    <p>High quality work with service warranty</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-star"></i></div>
+                    <h4>CUSTOMER SATISFACTION</h4>
+                    <p>Your satisfaction is our top priority</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon"><i class="fa-solid fa-headset"></i></div>
+                    <h4>24x7 SUPPORT</h4>
+                    <p>We are always here to help you</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Areas -->
+    <section class="service-areas" id="service-areas">
+        <div class="container">
+            <h2 class="section-title">SERVICE AREAS</h2>
+            <div class="title-underline"></div>
+
+            <div class="areas-list">
+                <span><i class="fa-solid fa-location-dot"></i> Ambattur</span>
+                <span><i class="fa-solid fa-location-dot"></i> Mogappair</span>
+                <span><i class="fa-solid fa-location-dot"></i> Korattur</span>
+                <span><i class="fa-solid fa-location-dot"></i> Anna Nagar</span>
+                <span><i class="fa-solid fa-location-dot"></i> Padi</span>
+                <span><i class="fa-solid fa-location-dot"></i> Nolambur</span>
+                <span><i class="fa-solid fa-location-dot"></i> Avadi</span>
+                <span><i class="fa-solid fa-location-dot"></i> Ayappakkam</span>
+                <span><i class="fa-solid fa-location-dot"></i> Chennai</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container footer-grid">
+            <div class="footer-col address-col">
+                <img src="images/logo.png" alt="Sree Kumaran" class="footer-logo">
+                <p><i class="fa-solid fa-location-dot"></i> 6, Shantha Home, Kathir Apartment,<br>AB Block G2, 6th Cross Street<br>Lenin Nagar, Ambattur, Chennai.</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>QUICK LINKS</h3>
+                <ul>
+                    <li><a href="#home"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-angle-right"></i> Services</a></li>
+                    <li><a href="#service-areas"><i class="fa-solid fa-angle-right"></i> Service Areas</a></li>
+                    <li><a href="#gallery"><i class="fa-solid fa-angle-right"></i> Gallery</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-angle-right"></i> Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>OUR SERVICES</h3>
+                <ul>
+                    <li><a href="#services"><i class="fa-solid fa-angle-right"></i> Electrical Services</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-angle-right"></i> Plumbing Services</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-angle-right"></i> Cleaning Services</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-angle-right"></i> Home Maintenance</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-angle-right"></i> All Home Services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>CONTACT US</h3>
+                <p><i class="fa-solid fa-phone"></i> 9940764694</p>
+                <p><i class="fa-brands fa-whatsapp"></i> 9940764694</p>
+                <p><i class="fa-solid fa-envelope"></i> sreekumaranservices@gmail.com</p>
+                <p><i class="fa-regular fa-clock"></i> Mon - Sun: 8:00 AM - 8:00 PM</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container bottom-flex">
+                <p>&copy; 2026 Sree Kumaran Electrical & Plumbing Services. All Rights Reserved.</p>
+                <div class="bottom-links">
+                    <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919940764694" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Booking Service Modal -->
+<div id="bookingModal" class="modal-overlay">
+    <div class="modal-content booking-modal-content">
+        <span class="modal-close" onclick="closeBookingModal()">&times;</span>
+        <div class="booking-header">
+            <h2><i class="fa-solid fa-calendar-check"></i> Book Your Service</h2>
+            <p>Fast & reliable service in Ambattur and nearby areas</p>
+        </div>
+
+        <form id="bookingForm" onsubmit="handleBookingSubmit(event)">
+            <div class="form-grid">
+                <!-- Name Field -->
+                <div class="form-group">
+                    <label for="custName">Full Name *</label>
+                    <input type="text" id="custName" placeholder="Enter your full name" required>
+                </div>
+
+                <!-- Phone Field -->
+                <div class="form-group">
+                    <label for="custPhone">Mobile Number *</label>
+                    <input type="tel" id="custPhone" pattern="[0-9]{10}" placeholder="10-digit mobile number" required>
+                </div>
+
+                <!-- Service Category -->
+                <div class="form-group">
+                    <label for="serviceCategory">Select Service *</label>
+                    <select id="serviceCategory" required onchange="updateSubServices()">
+                        <option value="">-- Choose Category --</option>
+                        <option value="Electrical">Electrical Services</option>
+                        <option value="Plumbing">Plumbing Services</option>
+                        <option value="Cleaning">Cleaning Services</option>
+                    </select>
+                </div>
+
+                <!-- Service Package Tier -->
+                <div class="form-group">
+                    <label for="serviceTier">Package Tier</label>
+                    <select id="serviceTier">
+                        <option value="Normal">Normal Tier (Standard / Inspection)</option>
+                        <option value="Premium" selected>Premium Tier (Standard + Warranty)</option>
+                        <option value="Pro">Pro Tier (Heavy / Turnkey Work)</option>
+                    </select>
+                </div>
+
+                <!-- Service Area -->
+                <div class="form-group">
+                    <label for="custArea">Service Location *</label>
+                    <select id="custArea" required>
+                        <option value="Ambattur">Ambattur</option>
+                        <option value="Mogappair">Mogappair</option>
+                        <option value="Korattur">Korattur</option>
+                        <option value="Anna Nagar">Anna Nagar</option>
+                        <option value="Padi">Padi</option>
+                        <option value="Nolambur">Nolambur</option>
+                        <option value="Avadi">Avadi</option>
+                        <option value="Ayappakkam">Ayappakkam</option>
+                        <option value="Other Chennai Area">Other Chennai Location</option>
+                    </select>
+                </div>
+
+                <!-- Preferred Slot -->
+                <div class="form-group">
+                    <label for="prefTime">Preferred Time Slot *</label>
+                    <select id="prefTime" required>
+                        <option value="Immediate / Emergency">Immediate / Emergency (< 2 hrs)</option>
+                        <option value="Today - Morning (8 AM - 12 PM)">Today - Morning (8 AM - 12 PM)</option>
+                        <option value="Today - Afternoon (12 PM - 4 PM)">Today - Afternoon (12 PM - 4 PM)</option>
+                        <option value="Today - Evening (4 PM - 8 PM)">Today - Evening (4 PM - 8 PM)</option>
+                        <option value="Tomorrow">Tomorrow</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- NEW: Google Location Chooser Options -->
+<div class="form-group full-width">
+    <label>Google Maps Location</label>
+    <div class="location-chooser-box">
+        <button type="button" class="btn-location" id="locationBtn" onclick="getCurrentLocation()">
+            <i class="fa-solid fa-location-crosshairs"></i> Use My Current Location
+        </button>
+        <span class="or-divider">OR</span>
+        <input type="url" id="googleMapsUrl" placeholder="Paste Google Maps Link / Plus Code (Optional)">
+    </div>
+    <small id="locationStatus" class="location-status-text"></small>
+</div>
+
+            <!-- Full Address -->
+            <div class="form-group full-width">
+                <label for="custAddress">Street Address / Door No. *</label>
+                <textarea id="custAddress" rows="2" placeholder="Enter door no, street name, landmarks..." required></textarea>
+            </div>
+
+            <!-- Issue Description -->
+            <div class="form-group full-width">
+                <label for="issueDetails">Describe Your Issue (Optional)</label>
+                <textarea id="issueDetails" rows="2" placeholder="e.g., Ceiling fan making noise, Water pipe leak under kitchen sink..."></textarea>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="booking-actions">
+                <button type="submit" class="btn btn-whatsapp-submit">
+                    <i class="fa-brands fa-whatsapp"></i> Book via WhatsApp
+                </button>
+                <a href="tel:9940764694" class="btn btn-call-submit">
+                    <i class="fa-solid fa-phone"></i> Call directly: 9940764694
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
