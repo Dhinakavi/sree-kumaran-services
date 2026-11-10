@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const serviceDetailsData = {
     electrical: {
-        title: "Electrical Services & Rate Card (Ambattur Market)",
+        title: "Electrical Services & Rate Card",
         description: "Professional electrical repair, wiring, and installation services carried out by licensed technicians in Ambattur and surrounding areas.",
         packages: [
             {
